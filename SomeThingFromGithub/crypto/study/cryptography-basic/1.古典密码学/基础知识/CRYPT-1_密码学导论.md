@@ -142,7 +142,8 @@ $$D_{PK_B}(E_{PK_B}(X))\neq X$$
 
 ![](files/1-3-4.png)
 
-### 小实验
+#### 小实验
+
 破解一个凯撒密码
 密文：GR BRXO LNHF UBSWRJUDSKB
 
@@ -151,7 +152,8 @@ $$D_{PK_B}(E_{PK_B}(X))\neq X$$
 https://planetcalc.com/1434/
 ```
 
-### 1.4.2 简单替换密码
+#### 1.4.2 简单替换密码
+
 将明文中所使用的字母替换为另一套字母表，形成新的对应关系。这种替换可以是任意的一对一关系。
 
 例如：现有一个简单替换密码表
@@ -208,7 +210,8 @@ UZQSOVUOHXMOPVGPOZPEVSGZWSZOPFPESXUDBMETSXAIZVUEPHZHMDZSHZOWSFPAPPDTSVPQUZWYMXUZ
 https://quipqiup.com/
 ```
 
-### 1.4.3 仿射密码
+#### 1.4.3 仿射密码
+
 它的加密函数是$C=(aM+b) mod\space 26$，其中
 - 数字对（a，b）为密钥
 - a和26互素，既：$gcd⁡(a,26)=1$
@@ -245,12 +248,14 @@ $5=(a×19+b)mod\space 26$【t（对应数字19）被替换成f（对应数字5�
 
 - 得到密钥对（21,22）
 
-### 小实验
+#### 小实验
+
 用仿射密码传送一个消息：
 offensive time tomorrow morning at ten o'clock
 密钥对为（7,10）
 
-### 1.4.4 Polybius密码
+#### 1.4.4 Polybius密码
+
 这是一种简单的单码加密法，它将字母表的字母填充在一个正方形中，加上行列编号。
 
 ![](files/1-3-9.png)
@@ -258,19 +263,19 @@ offensive time tomorrow morning at ten o'clock
 由于只有25个位置，所以去除字母j，因为 j 出现的频率低，用 i 来替代，不影响文字的可读性。
 明文中的a被替换成11，b被替换成12，依次类推。
 
-### 1.4.5 摩尔斯电码
+#### 1.4.5 摩尔斯电码
 
 ![](files/1-3-10.png)
 
-### 1.4.6 PIGPEN密码（猪圈密码）
+#### 1.4.6 PIGPEN密码（猪圈密码）
 
 ![](files/1-3-11.png)
 
-### 1.4.7 跳舞小人
+#### 1.4.7 跳舞小人
 
 ![](files/1-3-12.png)
 
-### 1.4.8 培根密码
+#### 1.4.8 培根密码
 
 由法兰西斯·培根发明的一种隐写术。
 
@@ -289,7 +294,7 @@ offensive time tomorrow morning at ten o'clock
 >第一步：ABABA ABBAB BAABB AABAA
 >第二步：messages is in the words
 
-### 1.4.9 Hill密码
+#### 1.4.9 Hill密码
 
 希尔密码(Hill Cipher)是基于线性代数多重代换密码，由Lester S. Hill在1929年发明。
 每个字母转换成26进制数字：A=0, B=1, C=2...Z=25一串字母当成n维向量，跟一个n×n的矩阵相乘，再将得出的结果MOD26。
@@ -398,8 +403,8 @@ ADFGVX密码是德军在第一次世界大战中使用的栏块密码。事实�
 
 最终得到：FAXDF ADDDG DGFFF AFAXX AFAFX
 
-
 #### 1.5.3 ENIGMA密码机
+
 恩尼格玛密码机在1920年代早期开始被用于商业，一些国家的军队与政府也曾使用过它，其中的主要使用者是第二次世界大战时的纳粹德国。
 
 ![谢尔比乌斯Arthur Scherbius](files/1-4-4.png)

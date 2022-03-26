@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.vue": "vue",
+    "bitset": "cpp",
+    "iostream": "cpp",
+    "xstring": "cpp",
+    "string": "cpp",
+    "iosfwd": "cpp",
+    "algorithm": "cpp",
+    "ios": "cpp",
+    "ostream": "cpp"
+  }
+}
